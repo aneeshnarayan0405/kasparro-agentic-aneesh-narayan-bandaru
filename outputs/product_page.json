@@ -1,0 +1,32 @@
+{
+  "page_type": "ProductPage",
+  "content": {
+    "metadata": {
+      "generated_at": "2025-12-26T21:14:12.501955",
+      "product": "GlowBoost Vitamin C Serum"
+    },
+    "product_info": {
+      "name": "GlowBoost Vitamin C Serum",
+      "concentration": "10% Vitamin C",
+      "skin_type": [
+        "Oily",
+        "Combination"
+      ],
+      "ingredients": [
+        "Vitamin C",
+        "Hyaluronic Acid"
+      ],
+      "benefits": [
+        "Brightening",
+        "Fades dark spots"
+      ],
+      "price": 699,
+      "currency": "INR"
+    },
+    "sections": {
+      "overview": "GlowBoost Vitamin C Serum is a advanced skincare serum.",
+      "usage": "Apply 2â€“3 drops in the morning before sunscreen",
+      "safety": "Mild tingling for sensitive skin"
+    }
+  }
+}

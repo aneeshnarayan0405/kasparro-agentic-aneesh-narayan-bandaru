@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Product Data Schema",
+  "description": "Schema for product input data validation",
+  "type": "object",
+  "required": [
+    "product_name",
+    "concentration", 
+    "skin_type",
+    "key_ingredients",
+    "benefits",
+    "how_to_use",
+    "side_effects",
+    "price"
+  ],
+  "properties": {
+    "product_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "concentration": {
+      "type": "string"
+    },
+    "skin_type": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "key_ingredients": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "benefits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "how_to_use": {
+      "type": "string"
+    },
+    "side_effects": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,46 @@
+{
+  "page_type": "ComparisonPage",
+  "content": {
+    "metadata": {
+      "generated_at": "2025-12-26T21:14:12.502273",
+      "compared_products": [
+        "GlowBoost Vitamin C Serum",
+        "RadiantX Serum"
+      ]
+    },
+    "product_a": {
+      "name": "GlowBoost Vitamin C Serum",
+      "concentration": "10% Vitamin C",
+      "ingredients": [
+        "Vitamin C",
+        "Hyaluronic Acid"
+      ],
+      "benefits": [
+        "Brightening",
+        "Fades dark spots"
+      ],
+      "price": 699
+    },
+    "product_b": {
+      "name": "RadiantX Serum",
+      "concentration": "5% Vitamin C",
+      "skin_type": [
+        "All Skin Types"
+      ],
+      "ingredients": [
+        "Vitamin C",
+        "Glycerin"
+      ],
+      "benefits": [
+        "Basic Brightening",
+        "Light Hydration"
+      ],
+      "price": 899
+    },
+    "analysis": {
+      "price_difference": 200,
+      "ingredient_count_difference": 0,
+      "recommendation": "GlowBoost Vitamin C Serum offers better value with more ingredients at lower price."
+    }
+  }
+}

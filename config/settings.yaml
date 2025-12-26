@@ -1,0 +1,53 @@
+system:
+  name: "Multi-Agent Content Generation System"
+  version: "1.0.0"
+  log_level: "INFO"
+  enable_metrics: true
+  enable_cache: true
+  
+agents:
+  parser:
+    enabled: true
+    validation_strict: true
+    
+  question_generator:
+    enabled: true
+    categories:
+      - "informational"
+      - "safety" 
+      - "usage"
+      - "purchase"
+      - "comparison"
+    questions_per_category: 4
+    
+  faq_agent:
+    enabled: true
+    min_questions: 5
+    include_metadata: true
+    
+  product_agent:
+    enabled: true
+    sections:
+      - "overview"
+      - "benefits"
+      - "usage"
+      - "safety"
+      - "pricing"
+      
+  comparison_agent:
+    enabled: true
+    include_recommendation: true
+    fictional_product:
+      name: "RadiantX Serum"
+      price: 899
+
+output:
+  format: "json"
+  indent: 2
+  ensure_ascii: false
+  validate_before_save: true
+  
+paths:
+  input_data: "data/product_input.json"
+  output_dir: "outputs/"
+  schema_file: "data/product_schema.json"

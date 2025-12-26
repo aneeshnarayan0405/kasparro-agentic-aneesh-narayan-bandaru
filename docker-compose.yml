@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  agentic-system:
+    build: .
+    container_name: multi-agent-content-system
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+    environment:
+      - LOG_LEVEL=INFO
+      - PYTHONUNBUFFERED=1
+    command: python main.py --log-level INFO
+    
+  test-runner:
+    build: .
+    container_name: agentic-system-tests
+    command: python -m pytest tests/ -v
+    volumes:
+      - .:/app
+      
+  validation-only:
+    build: .
+    container_name: agentic-system-validate
+    command: python main.py --validate-only
+    volumes:
+      - ./data:/app/data:ro

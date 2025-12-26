@@ -1,0 +1,42 @@
+{
+  "page_type": "FAQ",
+  "content": {
+    "metadata": {
+      "generated_at": "2025-12-26T21:14:12.501549",
+      "total_questions": 5,
+      "system": "Kasparro Assignment System"
+    },
+    "questions": [
+      {
+        "id": "faq_001",
+        "question": "What is GlowBoost Vitamin C Serum?",
+        "answer": "This is answer for What is GlowBoost Vitamin C Serum? about GlowBoost Vitamin C Serum.",
+        "category": "informational"
+      },
+      {
+        "id": "faq_002",
+        "question": "Are there any side effects?",
+        "answer": "This is answer for Are there any side effects? about GlowBoost Vitamin C Serum.",
+        "category": "safety"
+      },
+      {
+        "id": "faq_003",
+        "question": "How should I apply this serum?",
+        "answer": "This is answer for How should I apply this serum? about GlowBoost Vitamin C Serum.",
+        "category": "usage"
+      },
+      {
+        "id": "faq_004",
+        "question": "Is it worth the price?",
+        "answer": "This is answer for Is it worth the price? about GlowBoost Vitamin C Serum.",
+        "category": "purchase"
+      },
+      {
+        "id": "faq_005",
+        "question": "How does it compare to other Vitamin C serums?",
+        "answer": "This is answer for How does it compare to other Vitamin C serums? about GlowBoost Vitamin C Serum.",
+        "category": "comparison"
+      }
+    ]
+  }
+}
